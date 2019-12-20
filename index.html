@@ -7,11 +7,25 @@
   <div class="header-container">
   <h2>My Courses</h2>
   <nav>
-    <button class="button">All courses</button>
-    <button class="button">Collections</button>
-    <button class="button">Wishlist</button>
-    <button class="button">Archived</button>
+    <button data-id="all-courses" class="button">All courses</button>
+    <button data-id="collections" class="button">Collections</button>
+    <button data-id="wishlist" class="button">Wishlist</button>
+    <button data-id="archived" class="button">Archived</button>
   </nav>
+  </div>
+  <div class = "content-container">
+    <div class="hidden contents" id="all-courses">
+      <p>These are all your courses!</p>
+    </div>
+    <div class="hidden contents" id="collections">
+      <p>These are your collections!</p>
+    </div>
+    <div class="hidden contents" id="wishlist">
+      <p>This is your wishlist!</p>
+    </div>
+    <div class="hidden contents" id="archived">
+      <p>These are your archived items!</p>
+    </div>
   </div>
 </body>
   <script type="text/javascript" src="main.js"></script>
