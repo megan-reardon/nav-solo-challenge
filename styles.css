@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.header-container {
+  height: 100px;
+  background: lightblue;
+}
+
+h2 {
+  font-family: sans-serif;
+  color: darkblue;
+}
+
+
+
+
+/*  */
